@@ -7,7 +7,7 @@ import './productos.css';
 function ListaProductos() {
   return (
     <div>
-      <h2>Lista de Productos</h2>
+      <h2>Lista de Productos para la venta</h2>
       <div className="lista-productos">
         {productos.map((product) => (
           <div key={product.id} className="producto-card">
