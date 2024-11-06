@@ -1,0 +1,50 @@
+/* src/componentes/productos.css */
+
+.lista-productos {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    padding: 20px;
+  }
+  
+  .producto-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .producto-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .producto-imagen {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .producto-titulo {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .producto-precio,
+  .producto-stock,
+  .producto-codigo {
+    font-size: 0.9em;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+  .producto-precio {
+    font-weight: bold;
+    color: #2a9d8f;
+  }
+  
