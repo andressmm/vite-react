@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import './App.css';
-import { BrowserRouter  as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
 import Header from './componentes/header/header.jsx';
 import Footer from './componentes/footer/footer.jsx';
 import ListaProductos from './componentes/productos.jsx';
