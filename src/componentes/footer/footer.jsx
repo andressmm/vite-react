@@ -3,7 +3,6 @@ function Footer(){
     return(
         <p className='footer'>
             <hr>
-        <h2>Tienda de electronica</h2>
             <h4>Alumno: Andres Moran</h4>
         </p>
  )
